@@ -16,7 +16,7 @@ const Booking = () => {
   const [statusLoading, setStatusLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_BASE_URL = "https://your-backend.herokuapp.com/api/bookings/";
+  const API_BASE_URL = "https://dhilax-backend-ab3b18e895bb.herokuapp.com/api/bookings/";
 
   // Handle input change
   const handleChange = (e) => {
