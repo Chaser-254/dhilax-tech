@@ -40,7 +40,7 @@ const Booking = () => {
         alert("Booking submitted successfully! Check your email for confirmation.");
         setFormData({ name: "", email: "", phone: "", date: "", message: "" });
       } else {
-        setError("Booking submitted successfully. We will get back to you shortly. ");
+        alert("Booking submitted successfully. We will get back to you shortly. ");
       }
     } catch (err) {
       setError("Network error. Please check your connection.");
