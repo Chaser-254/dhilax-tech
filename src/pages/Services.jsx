@@ -21,6 +21,7 @@ const Services = () => {
         { name: "ETims Onboarding/Registration", price: "Ksh. 300", id: "etims", icon: "bi-person-badge" },
         { name: "ETims Invoice Generation", price: "Ksh. 250", id: "etims-invoice", icon: "bi-file-earmark-text" },
         { name: "Ecitizen Registration and Services", price: "Ksh. 500", id: "ecitizen", icon: "bi-globe" },
+        { name: "Website Development", price: "Starting from Ksh. 5,000", id: "web-development", icon: "bi-laptop" },
       ];
       
       return (
