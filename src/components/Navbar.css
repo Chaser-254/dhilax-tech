@@ -1,0 +1,21 @@
+/* Navbar.css */
+
+/* Replace #123456 with the actual color of your logo */
+.custom-navbar {
+    background-color:  #283593 !important; /* Change to your logo color */
+  }
+  
+  .custom-navbar .nav-link {
+    color: snow !important; /* Ensure text is visible */
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #083971 !important; /* Highlight color on hover */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    filter: invert(1); /* Make the mobile menu button visible */
+  }
+  
