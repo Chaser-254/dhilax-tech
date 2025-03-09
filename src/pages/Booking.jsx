@@ -56,6 +56,7 @@ const Booking = () => {
           <i className="bi bi-send-fill me-2"></i> Submit Booking
         </button>
       </form>
+      <br /><br />
     </div>
   );
 };
